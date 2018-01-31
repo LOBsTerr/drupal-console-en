@@ -13,8 +13,9 @@ questions:
   class: 'Enter the Command Class. (Must end with the word ''Command'').'
   name: 'Enter the Command name.'
   interact: 'Do you want to add the interact method ?'
-  container-aware: 'Is the command aware of the drupal site installation when executed?.'
+  container-aware: 'Is the command aware of the drupal site installation when executed?'
   services: 'Enter your service'
+  generator: 'Would you like to add Generator class?'
 messages:
   title-not-empty: 'Title cannot be empty'
 examples:

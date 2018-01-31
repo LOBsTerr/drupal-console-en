@@ -7,7 +7,7 @@ questions:
   uri: "Choice the multisite to update"
   directory: "Enter the new name (You could use subdir separated by '/')"
 errors:
-  invalid-uri: "The --uri=%s does not exist"
+  invalid-uri: 'The --uri="%s" does not exist'
   uri-dir-empty: "You must specify a old multisite directory to update."
   new-dir-empty: "You must specify a new name to update multisite."
   subdir-exists: 'The "sites/%s" directory already exists.'
