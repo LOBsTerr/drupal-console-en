@@ -24,5 +24,7 @@ examples:
         drupal config:export:view viewid \
           --module="modulename" \
           --optional-config \
-          --include-module-dependencies
+          --include-module-dependencies \
+          --remove-uuid \
+          --remove-config-hash
 

@@ -22,4 +22,6 @@ examples:
       execution: |
         drupal config:export:content:type page \
           --module="demo" \
-          --optional-config
+          --optional-config \
+          --remove-uuid \
+          --remove-config-hash
