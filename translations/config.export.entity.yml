@@ -9,12 +9,14 @@ questions:
     remove-uuid: 'The bundle to be exported without uuid key.'
     optional-config: 'Export the bundle in the module as an optional configuration'
     remove-config-hash: 'The bundle to be exported without the default site hash key.'
+    include-module-dependencies: 'Include bundle module dependencies in module info YAML file'
 messages:
     bundle-exported: 'Exporting bundle %s'
 options:
     optional-config: 'Export bundle as an optional YAML configuration in your module'
     remove-uuid: 'If set, the configuration will be exported without uuid key.'
     remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
+    include-module-dependencies: 'Include bundle module dependencies in module info YAML file'
 examples:
     - description: 'Provide an entity type, a bundle and a module name'
       execution: |
